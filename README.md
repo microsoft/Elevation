@@ -60,9 +60,13 @@ elevation/
 
 2. One additional data file must be generated via a genome search,
    using our Elevation-search (aka "dsNickFury") software, which
-   must be installed separately.
+   must be installed separately. The repository is located at
+   `https://github.com/michael-weinstein/dsNickFury3PlusOrchid`.
 
-   (provide link to install here)
+   (If you are not planning to run a genome search for off-targets,
+    you do not need to follow the instructions in the dsNickFury
+    documentation for data dependencies, just cloning the repository
+    is sufficient. You will need to download the indexed genome data.)
 
    After installing dsNickFury, edit the `CRISPR/guideseq/guideseq.py`
    script to point to the directory where it is installed, then run
@@ -212,3 +216,7 @@ which pickles are stored, etc., copy `elevation/settings_template.py` to
 If `elevation/settings.py` does not exist at install time, then
 `elevation/settings_template.py` is used to create `elevation/settings.py`.
 
+## Contacting us
+
+You can submit bug reports using the GitHub issue tracker. If you have any
+other questions, please contact us at crispr@lists.research.microsoft.com.
