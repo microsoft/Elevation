@@ -17,7 +17,7 @@ Jennifer Listgarten\*, Michael Weinstein\*, Benjamin P. Kleinstiver,
 Alexander A. Sousa, J. Keith Joung, Jake Crawford, Kevin Gao, Luong Hoang,
 Melih Elibol, John G. Doench\*, Nicolo Fusi\*. Prediction of off-target
 activities for the end-to-end design of CRISPR guide RNAs. *Nature Biomedical
-Engineering*, in press (2018).
+Engineering*, 2018.
 
 (\* = equal contributions/corresponding authors)
 
