@@ -20,7 +20,7 @@ setup(
     author_email="fusi@microsoft.com, jennl@microsoft.com",
     description=("Machine Learning-Based Predictive Modelling of CRISPR/Cas9 off-target effects"),
     packages=["elevation"],
-    install_requires=['scipy', 'numpy', 'matplotlib', 'nose', 'scikit-learn>=0.18', 'pandas', 'joblib', 'mock==2.0.0', 'multiprocess', 'statsmodels', 'requests', 'xlrd']
+    install_requires=['scipy', 'numpy', 'matplotlib', 'nose', 'scikit-learn>=0.18', 'pandas', 'joblib', 'mock==2.0.0', 'multiprocess', 'statsmodels', 'requests', 'xlrd'],
     license="BSD",
     test_suite="tests",
     entry_points={
