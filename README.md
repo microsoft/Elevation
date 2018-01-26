@@ -7,7 +7,7 @@ effects of CRISPR-Cas9. The approach, which we named Elevation, scores
 individual guide–target pairs, and aggregates such scores into a single,
 overall summary guide score.
 
-See [the project page](https://www.microsoft.com/en-us/research/project/crispr/) for more information.
+See our [**official project page**](https://www.microsoft.com/en-us/research/project/crispr/) for more detail.
 
 ## Publications
 
@@ -15,9 +15,9 @@ Please cite this paper if using our predictive model:
 
 Jennifer Listgarten\*, Michael Weinstein\*, Benjamin P. Kleinstiver,
 Alexander A. Sousa, J. Keith Joung, Jake Crawford, Kevin Gao, Luong Hoang,
-Melih Elibol, John G. Doench\*, Nicolo Fusi\*. Prediction of off-target
-activities for the end-to-end design of CRISPR guide RNAs. *Nature Biomedical
-Engineering*, 2018.
+Melih Elibol, John G. Doench\*, Nicolo Fusi\*. [**Prediction of off-target
+activities for the end-to-end design of CRISPR guide RNAs.**](https://doi.org/10.1038/s41551-017-0178-6)
+*Nature Biomedical Engineering*, 2018.
 
 (\* = equal contributions/corresponding authors)
 
