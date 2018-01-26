@@ -63,14 +63,18 @@ elevation/
    must be installed separately. The repository is located at
    `https://github.com/michael-weinstein/dsNickFury3PlusOrchid`.
 
-   (If you are not planning to run a genome search for off-targets,
-    you do not need to follow the instructions in the dsNickFury
-    documentation for data dependencies, just cloning the repository
-    is sufficient. You will need to download the indexed genome data.)
+   **Note:** If you are not planning to run a genome search for off-targets,
+   you do **not** need to follow the instructions in the dsNickFury
+   documentation for data dependencies. Here are the steps to follow:
 
-   After installing dsNickFury, edit the `CRISPR/guideseq/guideseq.py`
-   script to point to the directory where it is installed, then run
-   the script. (This will take some time to run; ~8 hours on a desktop)
+   * Download and unzip the hg38 index (linked in the dsNickFury README) into `dsNickFury/dsNickFury3PlusOrchid`
+   * Install anaconda2 into `dsNickFury/dependencies`
+   * Use anaconda2 to create a Python 3 environment (e.g. `dsNickFury/dependencies/anaconda2/bin/conda create -n dsNickFury python==3`)
+   * Edit the `dsNickFury/dsNickFury3PlusOrchid/settings.py` file so that network_root points to the directory containing dsNickFury, and anaconda_root points to the location of the anaconda2 install
+   * Edit the `CRISPR/guideseq/guideseq.py` file so that DSNF_DIRECTORY points to the `dsNickFury/dsNickFury3PlusOrchid` directory
+
+   At this point, you should be able to run `CRISPR/guideseq/guideseq.py`. (This will take some time
+   to run; ~8 hours on a desktop)
 
    Once the script finishes, there should be a file called
    `guideseq_unique_MM6_end0_lim999999999.hdf5` in the `CRISPR/guideseq`
